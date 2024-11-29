@@ -1,0 +1,46 @@
+name: Deploy Laravel Project on push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-test:
+    runs-on: ${{ matrix.os }}-latest
+    strategy:
+      matrix:
+        os: [ubuntu]
+        node-version: [16.x]
+    steps:
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+      - uses: actions/checkout@v3
+      # - name: Copy .env
+      #   run: php -r "file_exists('.env') || copy('.env.ci', '.env');"
+      #- name: Install composer dependencies
+      #  run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      # - name: Use Node.js 12
+      #   uses: actions/setup-node@v2-beta
+      #   with:
+      #     node-version: ${{ matrix.node-version }}
+      # - name: ci run build
+      #   run: |
+      #     npm ci
+      #     npm install
+      #     npm run build
+      #   env:
+      #     CI: false
+  deploy:
+    needs: build-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: deploy-staging
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+         
+
+  
