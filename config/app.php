@@ -15,7 +15,7 @@ return [
 
     'address' => 'No. 134/136 Aba Road, Umuahia, Abia State, Nigeria',
 
-    'email' => "mail@example.com",
+    'email' => "support@neweasterncomfort.com",
 
     'phone' => '+234 9019 999 055',
 
