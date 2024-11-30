@@ -42,7 +42,7 @@
                                 <h3>
                                     Standard Room
                                 </h3>
-                                <span>NGN 40,000  / Per Night </span>
+                                <span>NGN 30,000  / Per Night </span>
                                 <p>Our Standard Rooms are designed for simplicity and comfort, offering a cozy retreat for solo travelers or couples. Enjoy modern amenities, a comfortable bed, and an inviting atmosphere that ensures a restful stay.</p>
                             
                                 <a href="/contact_us" class="book-more-btn">
@@ -73,7 +73,7 @@
                                 <h3>
                                 Deluxe Room
                                 </h3>
-                                <span>NGN 45,000 / Per Night </span>
+                                <span>NGN 35,000 / Per Night </span>
                                 <p>Upgrade your experience with our spacious Deluxe Rooms. Featuring elegant interiors, premium furnishings, and additional amenities, these rooms are perfect for guests seeking extra comfort and style.</p>
                                 <a href="/contact_us" class="book-more-btn">
                                     Book Now
@@ -103,7 +103,7 @@
                                 <h3>
                                     Suite
                                 </h3>
-                                <span>NGN 70,000  / Per Night </span>
+                                <span>NGN 60,000  / Per Night </span>
                                 <p>Indulge in the ultimate luxury with our exclusive Suites. Boasting separate living and sleeping areas, plush decor, and top-tier amenities, they are ideal for those who value space, privacy, and sophistication.</p>
                                 <a href="/contact_us" class="book-more-btn">
                                     Book Now

@@ -244,7 +244,7 @@
                     <div class="content">
                         <h3>Standard Room</h3>
                         <ul>
-                            <li>NGN 40,000</li>
+                            <li>NGN 30,000</li>
                             <li>Per Night</li>
                         </ul>
                         
@@ -260,7 +260,7 @@
                     <div class="content">
                         <h3>Delux Room</h3>
                         <ul>
-                            <li>NGN 45,000</li>
+                            <li>NGN 35,000</li>
                             <li>Per Night</li>
                         </ul>
                         
@@ -276,7 +276,7 @@
                     <div class="content">
                         <h3>Suite</h3>
                         <ul>
-                            <li>NGN 70,000</li>
+                            <li>NGN 60,000</li>
                             <li>Per Night</li>
                         </ul>
                         

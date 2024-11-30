@@ -124,7 +124,7 @@
                                     Our Standard Rooms are designed for simplicity and comfort, offering a cozy retreat for solo travelers or couples.
                                     </p>
                                     <ul>
-                                        <li class="text-color">NGN 40,000</li>
+                                        <li class="text-color">NGN 30,000</li>
                                         <li><span>Per Night</span></li>
                                     </ul>
                                     <a href="/contact_us" class="book-btn">Book Now</a>
@@ -141,7 +141,7 @@
                                     Upgrade your experience with our spacious Deluxe Rooms. Featuring elegant interiors, premium furnishings, and additional amenities, these rooms are perfect for guests seeking extra comfort and style.
                                     </p>
                                     <ul>
-                                        <li class="text-color">NGN 45,000</li>
+                                        <li class="text-color">NGN 35,000</li>
                                         <li><span>Per Night</span></li>
                                     </ul>
                                     <a href="/contact_us" class="book-btn">Book Now</a>
@@ -156,7 +156,7 @@
                                     <h3>Suite</h3>
                                     <p>Indulge in the ultimate luxury with our exclusive Suites. Boasting separate living and sleeping areas, plush decor, and top-tier amenities, they are ideal for those who value space, privacy, and sophistication.</p>
                                     <ul>
-                                        <li class="text-color">NGN 70,000</li>
+                                        <li class="text-color">NGN 60,000</li>
                                         <li><span>Per Night</span></li>
                                     </ul>
                                     <a href="/contact_us" class="book-btn">Book Now</a>
